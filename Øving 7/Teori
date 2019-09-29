@@ -1,0 +1,33 @@
+a) Hva er et intranett?
+Et intranett er et internett som er eid av en organisasjon eller bedrift. Den skiller seg fra
+det globale internettet ved at det kun er non brukere som har adgang. Dette er gjerne bedriftens
+ansatte. Når man henviser til det globale internettet er det vanlig  skrive dette med stor
+"I" for å skille det fra intranettet og andre lokale internett
+
+b) Hva er forskjellen på en ruter og en vert (host)?
+En ruter mottar og sender informasonen videre. Det kan sendes videre til en ny bruker eller en vert (host)
+En vert er et endesystem (end system) som er tilkoblet internett og kjører applikasjoner
+En vert kan være alt fra en liten sensor til databaseservere
+
+c) Beskriv hva en protokoll er innen nettverk. (to/tre setninger)
+En protokoll er et sett med regler som bestemmer hvordan informasjonen skal sendes og mottas.
+Ved å ha en god protokoll kan man forsikre seg om at sendingen foregår trygt og ikke mister informasjon.
+Internett bruker blant annet TCP/IP-protokollen.
+
+d) Hva er en IP-adresse?
+En IP-adresse er en unik numerisk adresse som blir tildelt hver enhet i et nettverk.
+Man bruker IP-adressen for å lokalisere en enhet og kan sammenliknes med en post-adresse når man skal sende post.
+På samme måte som med post er det viktig at ikke flere enheter deler samme adresse.
+
+e) Hva er forskjellen på IPv4 og IPv6, og hvorfor har vi behov for IPv6?
+IPv4-aresser har en størrelse som er på 32 bit. dette betyr at det kan eksistere 2^32 = 4,294,967,296
+forskjellige adresser. Dette blir for få adresser nå som det stadig blir flere enheter tilkoblet Internett.
+Derfor må man øke størrelsen på IP-adressene. Dette gjøres ved å bruke IPv6.
+Disse adressene har en størrelse på 128 bit, som betyr 2^128 forskjellige adresser.
+Dette tilsvarer omtrent 3,4*10^38 som er mer enn nok adresser i alle fall for den overskuelige fremtiden.
+
+f) Forklar enkelt hvordan IP-protokollen
+IP-protokollen er en protokoll for overføring av pakker fra en node i et nettverk til en annen.
+Enhver pakke har mottakeradresse og senderadresse, og IP-protokollen sørger for at hver pakke når fram til
+riktig mottaker. Det er verdt å merke seg at den bruker packet-switcing, altså at hver pakke kan ta forskjellig
+rute fra sender til mottaker.

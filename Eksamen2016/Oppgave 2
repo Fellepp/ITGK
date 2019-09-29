@@ -1,0 +1,4 @@
+a) M = [[1,0,1],[0,1,0],[1,0,1]] Gjør 1'ere til 0'ere og 0'ere til 1'ere
+b) Gjør om fra tall til utskrift. 30th Nov 1337
+c) x = 3, y = b. Finner den bokstaven det er flest av i en streng, returerer antall forekomster og bokstav
+d) Regner tverrsummen av et tall. Regner også tverrsummen til tverrsummen hvis mulig (returnerer 6)

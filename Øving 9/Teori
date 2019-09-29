@@ -1,0 +1,24 @@
+a) Hvordan behandler TCP en tapt pakke (Lost packets)?
+Når en pakke ankommer intakt sender mottaker en bekreftelse (ACK). Hver gang avsender sender en pakke
+starter den en timer. Dersom bekreftelse fra mottaker ankommer før timeren utløper kanselleres timeren.
+Dersom timeren utløper før bekreftelse blir mottatt sendes en kopi av den tapte pakken (retransmisjon)
+og en ny timer startes. Retransmisjoner kan føre til duplikater, så det er begrensinger på antall retransmisjoner
+
+b) Hvilke tre egenskaper er det vanligst å bruke når man ser på hvor god ytelse et nettverk har?
+Latency (delay) - Tiden det tar å overføre data over et nettverk fra et endepunkt til et annet
+Throughput (capacity, bandwith) - Mengden data som kan overføres innenfor en gitt tidsenhet
+Jitter (variability) - Endringer i forsinkelser og lengden på forsinkelsene
+
+c) Forklar enkelt hvordan RSA-kryptering fungerer og hva en public og private key er. Det trengs ikke noen matematisk forklaring, kun en overfladisk beskrivelse på noen få setninger.
+RSA er en krypteringsalgoritme bsert på offentlig nøkkel. For å bruke denne må den gjennom tre steg;
+generering av nøkkeltal, kryptering og dekryptering.
+Privat nøkkel - Partene deler en hemmelig nøkkel som brukes både for kryptering og dekryptering. Partene kan både sende og motta krypterte meldinger
+Offentlig nøkkel - Hver part får en hemmelig og en offentlig nøkkel. En melding kryptert med en offentlig nøkkel kan kun dekrypteres med den korresponderende private nøkkelen.
+
+d) Hva står VPN for og hva er det?
+Det står for Virtuelle private nettverk. Bruker kryptering for å tilby sikker aksess til et lokalt nettverk
+for klienter som befinner seg utenfor (f.eks tilgang til NTNUs nettverk hjemmefra). Opprinnelig laget for å kople sammen lokale nettverk til en organisasjon som er fysisk distribuert i et
+sikkert virtuelt nettverk
+
+e) Hva er et DDos-angrep?
+Overøse en vert med datapakker, fra flere kilder, for å bruke opp alle ressurser. Skaper lange forsinkelser

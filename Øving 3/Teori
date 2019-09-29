@@ -1,0 +1,26 @@
+﻿a) Hva er pseudokode og når får vi bruk for det? Skriv pseudokode til en av oppgavene du løste på øving 2.
+Pseudokode er en informativ beskrivelse av koden. Lurt å skrive før man programmerer for å legge en plan
+Pseudokode til Øving2, Epletigging
+spør "hvor mange epler har du?"
+hvis epler er 0, print svar1
+ellers spør hvor mange epler du kan gi
+	hvis gir færre enn halvparten print svar2
+	ellers print svar3
+	
+b) Hva er et flytdiagram?
+Et diagram som viser flyten i koden. Den visualiserer arbeidsprosessen i koden
+c) Hva er debugging?
+En prosess for å finne og rette opp i feil i koden.
+d) Hva er forksjellen på et høynivå- og et lavnivå-programmeringsspråk?
+Høynivå har en kompilator mens lavnivå skrives nærmest direkte til prosessoren
+e) Forklar de fem stegene i Hente/Utføre-kretsen.
+Fetch instruction
+Decode Instrution
+Fetch operand
+Execute instruction
+Write operand
+f) Hva gjør programtelleren (Program Counter)?
+Kalles også instruksjonspekeren. Et prosessorregister som bukes for å
+angi hvor langt prosessoren har kommet i utføringen av en instruksjonssekvens
+Den angir enten adressen til instruksjonen som utføres eller adressen til
+neste instruksjon som skal utføres

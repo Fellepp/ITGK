@@ -1,0 +1,22 @@
+Teori 1
+a) Hva er forskjellen på primær og sekundær lagring? Nevn eksempler på disse? 
+Primær lagring er det som kalles for minne (RAM). Dette er korttidslagringa til en datamaskin, og denne lagringen forsvinner når PCen skrus av. 
+Primærminnet har mye raskere aksesseringstid, men er dyrere og har mindre plass. CPUen bruker ofte RAM for å holde kode, utføre beregninger og styre driften av datamaskinen
+Sekundærlagring er ofte ssd/hdd (harddisk). Denne er mye langsommere men
+har også mye større lagringsplass. Det som lagres her er forsvinner ikke når PCen blir skrudd av.
+b) Harddisk, SSD og RAM: Nevn de ulike egenskapene med tanke på permanent/volatilt og tilfeldig/sekvensiell aksess.
+Harddisk er permanent fordi det som lagres der er fortsatt lagret når strømmen forsvinner. Det er også sekvensiell aksess fordi harddisken er en fysisk disk som spinner.
+SSD er permanent fordi det som lagres der er fortsatt lagret når strømmen forsvinner. SSDen har mulighet for tilfeldig aksess (henter data på gitt adresse).
+RAM (minne) er volatilt fordi det som lagres her forsvinner når strømmen forsvinner. RAM har også tilfeldig aksess (henter data på gitt adresse). 
+c) Silisium brukes mye i elektronikk. Hvorfor?
+Silisium er en halvleder, noe som betyr at silisium ikke leder strøm i romtemperatur, men bare når det varmes opp. Dette har gjort silisium til en avgjørende bestanddel
+i all elektronikk, der elektroner i kretser slås av og på
+d) Hvordan kan en datamaskin lagre og behandle bilder, lyd og tekst?
+Det lagres som forskjellige formater der hvert format har sitt eget unike bitmønster.
+e) Det overføres 32 000 bytes mellom to datamaskiner. Hva må netthastigheten (målt i bits) være for å fullføre denne overføringen i løpet av 40 sekunder?
+f) Hva er et OS og hva brukes det til?
+32 000 bytes = 256 000 bits
+256 000 bits / 40 sek = 6400 bits/sekund eller 6.4kbits/sekund
+Et operativsystem er den viktigste programvaren som kjører på datamaskinen. Den styrer datamaskinens minne og prosesser, samt all programvare og maskinvare.
+Den holder styre på hvilke prosesser som får tilgang til CPU og i/o-enheter. Operativsystemet kan også sees på som mellomleddet mellom bruker og programkode. Ulike
+operativsystemer er f.eks. linux og windows.

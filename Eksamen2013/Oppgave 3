@@ -1,0 +1,5 @@
+a) a = 3 og b = 2, regner ut hvor mange ganger 3 går opp i 11 og finner rest
+b) answer = [[1, 5, 9, 13], [2, 6, 10, 14], [3, 7, 11, 15], 4, 8, 12, 16]
+Transponerer matrisen (nxn)
+c) Gjør om fra desimalsystem til binærsystem. answer = 0001 0100 1000
+

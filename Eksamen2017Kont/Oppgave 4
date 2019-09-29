@@ -1,0 +1,4 @@
+a) God middag!! - Lager en streng ut av en kombinasjon av s1, s2, s3, der lengden av strengen vil være lengden til s1
+b) m = [[00000], [03450], [04560], [05670], [00000]] Gjør om alle tall i ytterkanten av matrisen til 0 (bare den innerste 3x3 matrisen har tall!=0)
+c) a = The Matrix. Leser en streng baklengs pluss tar kun med anhver bokstav
+d) x = 256. Multipliserer argument 1 med seg selv rekursivt antall ganger fra argument 2 til argument 3 (ikke til og med)

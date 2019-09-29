@@ -1,0 +1,4 @@
+a) returnerer 14. produktet av første og siste element + produktet av andre og nest siste produkt osv.. (n0 * nn) + (n1 * nn-1) + ...
+b) Setter anhvert element i matrisen til 1, får ut [[1,0,1,0],[0,1,0,1],[1,0,1,0],[0,1,0,1]]
+c) Rosenborg, skriver ut en streng lagd av hvert tredje element i parameterstrengen
+d)

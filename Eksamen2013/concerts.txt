@@ -1,0 +1,4 @@
+The aller beste;5;1230.0;Filip Johansen
+Gloshaugkameratene;2;300;Siri Johansen
+The Rectorats;4;360.0;Aleksander Olsen
+The aller beste;5;1230.0;Filip Johansen

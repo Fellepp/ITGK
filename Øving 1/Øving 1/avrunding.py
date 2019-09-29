@@ -1,0 +1,12 @@
+print("Jeg skal vise deg konvertering mellom heltall og flyttall")
+tall = float(input("Skriv inn et flyttall (desimaltall):"))
+intTall = int(tall);
+print("Konvertert med int() ble tallet", intTall)
+flytTall = float(intTall)
+print("Heltallet konvertert tilbak til flyttall:", flytTall)
+print("Det opprinnelige flyttallet avrundet med round():", round(tall))
+print("round() kan også brukes til å avrunde til et antall desimaler")
+print("F.eks. blir round(2.348, 2) til 2.35 da vi ber om 2 desimaler")
+desimaler = int(input("Hvor mange desimaler ønsker du?"))
+nyttTall = round(tall, desimaler)
+print("Opprinnelig flyttall til", desimaler, "desimaler :", nyttTall)

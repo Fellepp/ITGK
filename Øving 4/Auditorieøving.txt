@@ -1,0 +1,140 @@
+1 - Teori)
+
+1. b
+2. b
+3. b
+4. d
+5. c
+6. c
+
+2 - Variabler, verdier og IO)
+
+a)
+variabel_navn = "Hei"
+b)
+4 (b)
+c)
+vaiabel_navn = input("Skriv inn din input her")
+d)
+1 - String
+2 - Int
+3 - Float
+4 - String (kan taes som int men blir veldig store og trengs ikke regnes med)
+5 - Boolean
+
+3 - Betingelser og bruk av logiske uttrykk)
+
+a)
+fornavn = input("Skriv inn fornavn: ")
+if fornavn == "Kristian":
+	print("Hei, Kristian")
+else:
+	print("Hallo!")
+
+b)
+x = int(input("Hvor mye penger har du? "))
+y = int(input("Hvor mye koster genseren? "))
+
+if x<y:
+	print("Du har ikke råd til genseren")
+else:
+	print("Du har råd til genseren")
+
+c)
+harHøyHals = False
+x = int(input("Hvor mye penger har du? "))
+y = int(input("Hvor mye koster genseren? "))
+
+if x<y:
+	print("Let videre i neste butikk")
+elif x>= y and harHøyHals:
+	print("Kjøp genseren!")
+else:
+	print("Let videre i neste butikk")
+
+d)
+Potet
+
+4 - Løkker)
+
+a)
+for i in range(0, 103):
+	if i%3 == 0:
+		print(i)
+
+b)
+x = int(input("Skriv inn x: ")
+y = int(input("Skriv inn y: ")
+
+for i in range(x,y):
+	if i%3 == 0:
+		print(i)
+
+c)
+sum = 0
+while sum<=50:
+	x = int(input("Skriv et tall: ")
+	sum += x
+print("Summen er over 50")
+
+d)
+sum = 0
+antallTall = 0
+while sum <= 120 or antallTall<10
+	x = int(input("Skriv et tall: ")
+	if x%3 == 0:
+		antallTall += 1
+	sum += x
+print("Summen er over 120 eller ti tall delelig på 3 er funnet")
+
+5 - Kodeforståelse og funksjoner)
+A = 10
+B = 5
+
+a)
+10 (A)
+
+b)
+10
+
+c)
+5
+
+d)
+2
+
+e)
+5
+
+6 - Pascals trekant og n!)
+
+a)
+def factorial_loop(n):
+
+	sum = 1
+	if n == 0:
+		return sum
+	else:
+		for i in range(1, n+1):
+			sum *= i
+		return sum
+b)	
+def nchoosek(n, k):
+	sum = factorial_loop(n)/((factorial_loop(k)) * factorial_loop(n - k))
+	return sum
+
+c)
+def Pascal(n):
+	for i in range(0, n):
+		for j in range(0, i+1):
+			print(int(nchoosek(i, j)), end=' ')
+		print("\n")
+ 		
+	
+n = int(input("Skriv inn n"))
+Pascal(n)
+
+	
+
+
+

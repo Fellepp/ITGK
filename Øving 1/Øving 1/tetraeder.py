@@ -1,0 +1,21 @@
+#a)
+print("Overflateareal-beregner for tetraeder")
+h = float(input("Skriv inn tetraedets høyde: "))
+a = 3/(6**0.5) * h
+o = round(3**0.5*a**2, 2)
+print("Overflatearealet er", o)
+print()
+#b)
+print("Volumberegnet for tetraeder")
+h = float(input("Skriv inn tetraedets høyde: "))
+a = 3/(6**0.5) * h
+v = round((2**0.5*a**3)/12, 2)
+print("Volumet er", v)
+print()
+#c)
+print("Den ultimate tetraederberegner")
+h = float(input("Skriv inn tetraedets høyde: "))
+a = 3/(6**0.5) * h
+o = round(3**0.5*a**2, 2)
+v = round((2**0.5*a**3)/12, 2)
+print("En tetraeder med høyde", h, "har volum", v, "og areal", o)

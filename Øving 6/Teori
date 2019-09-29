@@ -1,0 +1,13 @@
+a) Hva het forgjengeren til det vi i dag kaller "Internett", og hvem startet arbeidet med dette?
+Forgjengeren til det vi kaller internett var arpanet og ble startet av det amerikanske forsvaret
+b) Hvordan fungerer paritet som feildeteksjonsmetode?
+Det virker ved at man har en paritetsbit som settes til 1 eller 0 slik at antall enere blir partall. På denne måten kan man vite om det har skjedd noe feil under sending.
+c) Hva er forskjellen på "circuit switching" og "packet switching"? (Svar på to/tre setninger)
+Circuit switching trenger en dedikert "point-to-point" tilkobling under kommunikasjon.
+Packet swtching sender datapakker separert, og de blir deretter satt sammen etter at de har ankommet
+d) Hvilke fem (protokoll)-lag brukes ofte for å forklare de forskjellige funksjonene til internettet?
+De fem lagene som brukes for å forklare de forskjellige funksjonene til internettet er applikasjon (HTTP),
+transport (TCP), nettverket (IP), data link (Ethernet) og den fysiske datamaskinen
+e) Hva er oppgaven til rutere (Routers) i nettverk? (Svar på to/tre setninger)
+Ruteren sin oppgave er å sende riktig datapakke til riktig mottaker. Ruteren har en tabell over nettverk den er koblet til og
+den sender pakken videre ved å lese av mottakeradressen på pakken og sjekker denne oppmot tabellen
